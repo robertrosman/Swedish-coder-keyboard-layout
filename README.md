@@ -27,6 +27,9 @@ Layouten i bild
 
 ![Layouten i bild](swedish-coder.png)
 
+På varje tangent i bilden finns det plats för fyra symboler, dessa ska förstås 
+såhär:
+
     1  4
     
     2  3
@@ -61,7 +64,7 @@ För tillfället finns layouten bara till Linux/Ubuntu, men du får gärna göra
 tillgänglig till andra operativsystem med, så länge den förblir öppen källkod 
 (se [LICENSE](LICENSE) för mer information). 
 
-# Ubuntu
+### Ubuntu
 
 För att installera layouten i Ubuntu kopierar du texten i filen 
 [layout.txt](layout.txt) och klistrar in i `/usr/share/X11/xkb/symbols/se`. Du 
