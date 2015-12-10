@@ -59,7 +59,7 @@ Installation
 
 För tillfället finns layouten bara till Linux/Ubuntu, men du får gärna göra den 
 tillgänglig till andra operativsystem med, så länge den förblir öppen källkod 
-(se [LICENSE](LICENCE) för mer information). 
+(se [LICENSE](LICENSE) för mer information). 
 
 # Ubuntu
 
