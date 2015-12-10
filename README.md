@@ -39,6 +39,10 @@ såhär:
 3. `Alt Gr` + `tangent`
 4. `Shift` + `Alt Gr` + `tangent`
 
+De röda och blå symbolerna är vad som skiljer den här layouten mot en vanlig 
+klassisk qwerty-layout. De röda symbolerna är alltså `Alt Gr` + `tangent`, medan 
+de blå är `Alt Gr` + `Shift` + `tangent`.
+
 Förklaring av logiken
 ---------------------
 
