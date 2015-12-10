@@ -25,7 +25,7 @@ Fördelarna med den här layouten är framförallt följande:
 Layouten i bild
 ---------------
 
-[Layouten i bild](swedish-coder.png)
+![Layouten i bild](swedish-coder.png)
 
     1  4
     
@@ -59,12 +59,12 @@ Installation
 
 För tillfället finns layouten bara till Linux/Ubuntu, men du får gärna göra den 
 tillgänglig till andra operativsystem med, så länge den förblir öppen källkod 
-(se LICENSE för mer information). 
+(se [LICENSE](LICENCE) för mer information). 
 
 # Ubuntu
 
-För att installera layouten i Ubuntu kopierar du texten i filen `layout.txt` och 
-klistrar in i `/usr/share/X11/xkb/symbols/se`. Du kan nu välja layouten 
-i `Systeminställningar -> Tangentbord -> Textinmatning`.
+För att installera layouten i Ubuntu kopierar du texten i filen 
+[layout.txt](layout.txt) och klistrar in i `/usr/share/X11/xkb/symbols/se`. Du 
+kan nu välja layouten i `Systeminställningar -> Tangentbord -> Textinmatning`.
 
 Samma princip borde gälla alla Linux-distributioner som använder X11.
