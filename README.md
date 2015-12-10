@@ -32,7 +32,7 @@ Layouten i bild
     2  3
 
 1. `Shift` + `tangent`
-2. Bara `tangent`
+2. Bara `tangent` (Har uteslutits i bilden på bokstavstangenterna)
 3. `Alt Gr` + `tangent`
 4. `Shift` + `Alt Gr` + `tangent`
 
