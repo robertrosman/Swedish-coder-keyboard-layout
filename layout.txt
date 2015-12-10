@@ -1,0 +1,46 @@
+// based on a keyboard map from an 'xkb/symbols/se' file
+
+/////////////////////////////////////////////////////////////////////////////////
+//
+// Generated keyboard layout file with the Keyboard Layout Editor.
+// For more about the software, see http://code.google.com/p/keyboardlayouteditor
+// Made by Robert Rosman 2015.
+
+partial alphanumeric_keys
+xkb_symbols "coder"
+{
+	name[Group1] = "Swedish (Coder)";
+	include "se(basic)"
+	key <AB01> { [       NoSymbol,       NoSymbol,           plus                 ] }; //   + 
+	key <AB02> { [       NoSymbol,       NoSymbol,          minus                 ] }; //   - 
+	key <AB03> { [       NoSymbol,       NoSymbol,       asterisk                 ] }; //   * 
+	key <AB04> { [       NoSymbol,       NoSymbol,          slash                 ] }; //   / 
+	key <AB05> { [       NoSymbol,       NoSymbol,     asciitilde                 ] }; //   ~ 
+	key <AB06> { [       NoSymbol,       NoSymbol,       NoSymbol,           0    ] }; //   0 
+	key <AB07> { [       NoSymbol,       NoSymbol,       NoSymbol,           1    ] }; //   1 
+	key <AB08> { [       NoSymbol,       NoSymbol,       NoSymbol,           2    ] }; //   2 
+	key <AB09> { [       NoSymbol,       NoSymbol,       NoSymbol,           3    ] }; //   3 
+	key <AC01> { [       NoSymbol,       NoSymbol,     quoteright                 ] }; //   ' 
+	key <AC02> { [       NoSymbol,       NoSymbol,             at                 ] }; //   @ 
+	key <AC03> { [       NoSymbol,       NoSymbol,       sterling                 ] }; //   £ 
+	key <AC04> { [       NoSymbol,       NoSymbol,         dollar                 ] }; //   $ 
+	key <AC05> { [       NoSymbol,       NoSymbol,dead_circumflex                 ] }; //   ^ 
+	key <AC06> { [       NoSymbol,       NoSymbol,      ampersand                 ] }; //   & 
+	key <AC07> { [       NoSymbol,       NoSymbol,      braceleft,           4    ] }; //   { 
+	key <AC08> { [       NoSymbol,       NoSymbol,    bracketleft,           5    ] }; //   [ 
+	key <AC09> { [       NoSymbol,       NoSymbol,   bracketright,           6    ] }; //   ] 
+	key <AC10> { [       NoSymbol,       NoSymbol,     braceright                 ] }; //   } 
+	key <AC11> { [       NoSymbol,       NoSymbol,      backslash                 ] }; //   \
+	key <AD01> { [       NoSymbol,       NoSymbol,         exclam                 ] }; //   ! 
+	key <AD02> { [       NoSymbol,       NoSymbol,       quotedbl                 ] }; //   " 
+	key <AD03> { [       NoSymbol,       NoSymbol,     numbersign                 ] }; //   # 
+    key <AD04> { [       NoSymbol,       NoSymbol,       currency                 ] }; //   ¤
+	key <AD05> { [       NoSymbol,       NoSymbol,        percent                 ] }; //   % 
+	key <AD06> { [       NoSymbol,       NoSymbol,      ampersand                 ] }; //   & 
+	key <AD07> { [       NoSymbol,       NoSymbol,          slash,           7    ] }; //   / 
+	key <AD08> { [       NoSymbol,       NoSymbol,      parenleft,           8    ] }; //   ( 
+	key <AD09> { [       NoSymbol,       NoSymbol,     parenright,           9    ] }; //   ) 
+	key <AD10> { [       NoSymbol,       NoSymbol,          equal                 ] }; //   = 
+	key <AD11> { [       NoSymbol,       NoSymbol,       question                 ] }; //   ? 
+};
+
