@@ -71,7 +71,51 @@ tillgänglig till andra operativsystem med, så länge den förblir öppen käll
 ### Ubuntu
 
 För att installera layouten i Ubuntu kopierar du texten i filen 
-[layout.txt](layout.txt) och klistrar in i `/usr/share/X11/xkb/symbols/se`. Du 
+[layout.txt](layout.txt) och klistrar in i `/usr/share/X11/xkb/symbols/se`. Efter det behöver du lägga till den som ett alternativ i `/usr/share/X11/xkb/rules/evdev.xml`. Leta upp sektionen som liknar denna:
+
+    <layout>
+      <configItem>
+        <name>se</name>
+        <shortDescription>sv</shortDescription>
+        <description>Swedish</description>
+        <languageList>
+          <iso639Id>swe</iso639Id>
+        </languageList>
+      </configItem>
+      <variantList>
+        <variant>
+          <configItem>
+            <name>nodeadkeys</name>
+            <description>Swedish (eliminate dead keys)</description>
+          </configItem>
+        </variant>
+
+lägg till den nya layouten, så att filen ser ut såhär:
+
+    <layout>
+      <configItem>
+        <name>se</name>
+        <shortDescription>sv</shortDescription>
+        <description>Swedish</description>
+        <languageList>
+          <iso639Id>swe</iso639Id>
+        </languageList>
+      </configItem>
+      <variantList>
+        <variant>
+          <configItem>
+            <name>nodeadkeys</name>
+            <description>Swedish (eliminate dead keys)</description>
+          </configItem>
+        </variant>
+        <variant>
+          <configItem>
+            <name>coder</name>
+            <description>Swedish (Coder)</description>
+          </configItem>
+        </variant>
+
+Kör sedan kommandot `sudo dpkg-reconfigure xkb-data` för att uppdatera cachen. Du 
 kan nu välja layouten i `Systeminställningar -> Tangentbord -> Textinmatning`.
 
 Samma princip borde gälla alla Linux-distributioner som använder X11.
